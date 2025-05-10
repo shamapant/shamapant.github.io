@@ -13,7 +13,9 @@ permalink: /trading/
 <body>
   <h1>Trading Blog</h1>
   {% for post in site.posts %}
-    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+    {% if post.categories contains "trading" %}
+      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+    {% endif %}
   {% endfor %}
 </body>
 </html>
