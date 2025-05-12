@@ -4,16 +4,11 @@ html {
   }
   
   body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-family: 'Computer Modern Serif', 'Latin Modern Roman', 'Times New Roman', Times, serif;
     font-size: 1.1em;
-    text-align: center;
-    padding: 7%;
+    padding: 2rem;
     margin: 0;
-    background: #fff;
+    background: #678BA2;
     color: #222;
     line-height: 1.6;
   }
@@ -61,4 +56,50 @@ html {
   a:hover {
     background: rgba(15, 53, 128, 0.1);
     color: rgba(15, 52, 128, 1);
+  }
+  
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .header-title {
+    border-bottom: 1px solid #222;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .header p {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+  }
+  
+  .about-content ul {
+    margin: 1em 0;
+    padding-left: 2em;
+  }
+  
+  .about-content li {
+    margin: 0.5em 0;
+    text-align: left;
+  }
+  
+  .about-content p {
+    margin: 1em 0;
+    text-align: left;
   }

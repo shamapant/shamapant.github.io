@@ -1,27 +1,27 @@
 ---
 layout: none
-permalink: /trading/
+permalink: /art/
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Trading</title>
+  <title>Art</title>
   <link rel="stylesheet" href="/style.css">
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <div class="header">
     <div class="header-title">
-      <h1>Trading</h1>
+      <h1>Art</h1>
     </div>
     <p><a href="/about/">About →</a></p>
   </div>
   {% for post in site.posts %}
-    {% if post.categories contains "trading" %}
+    {% if post.categories contains "art" %}
       <p><a href="{{ post.url }}">{{ post.title }}</a></p>
     {% endif %}
   {% endfor %}
 </body>
-</html>
+</html> 
